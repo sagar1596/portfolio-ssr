@@ -1,0 +1,31 @@
+.page.professional {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+    padding-top: 6rem;
+}
+.page.professional > h2 {
+    color: #000;
+}
+.page.professional .exp-chart {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #e6e6e6;
+}
+
+.page.professional .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: #000;
+    font-weight: 600;
+}
+
+.page.professional .vertical-timeline-element-content p.exp-content {
+    font-size: 0.8rem;
+}
+
+.page.professional .vertical-timeline .svg-inline--fa {
+    width: 24px !important;
+}

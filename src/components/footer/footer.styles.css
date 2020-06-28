@@ -1,0 +1,15 @@
+.footer.navbar.bg-custom {
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+}
+.footer.navbar.bg-custom svg path {
+    fill: #fff;
+}
+.footer.navbar.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+.footer.navbar.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}

@@ -1,0 +1,36 @@
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+   }
+    100% {
+        opacity: 1;
+   }
+}
+.homepage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.homepage .bg-custom {
+    border: none;
+    flex: 1;
+    align-items: center;
+}
+.homepage .bg-custom .card-text {
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+.homepage .bg-custom .card-text > div {
+    font-size: 2em;
+}
+.homepage .bg-custom .card-text > div .name {
+    font-size: 1.3em;
+}
