@@ -25,7 +25,7 @@ class ProfessionalPage extends React.Component {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="11/2010 – Present"
+    date="10/2018 – Present"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<Icons iconType="exp" />}
   >
