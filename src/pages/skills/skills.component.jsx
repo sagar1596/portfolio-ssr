@@ -26,7 +26,7 @@ class SkillsPage extends React.Component {
                     description="Skills - This is a Skill listing page for Sagar Bhat." />
 
                 <Fade bottom>
-                    <h2>Skills</h2>
+                    <h2>Skills and Confidence Level</h2>
                 </Fade>
         
 

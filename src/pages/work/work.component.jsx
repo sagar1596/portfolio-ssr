@@ -10,6 +10,7 @@ class WorkPage extends React.Component {
     constructor() {
         super();
         this._handleGoToSite = this._handleGoToSite.bind(this);
+        this._handleGoToSource = this._handleGoToSource.bind(this);
     }
     
     render() {
@@ -28,6 +29,7 @@ class WorkPage extends React.Component {
                             <div className="overlay">
                                 <div className="text">
                                     <CustomButton onClick={this._handleGoToSite}>Go to Site</CustomButton>
+                                    <CustomButton onClick={this._handleGoToSource}>Go to Source</CustomButton>
                                 </div>
                             </div>
                         </div>
@@ -73,6 +75,7 @@ class WorkPage extends React.Component {
                             </Accordion>
                             <div className="button-container-mobile">
                                 <CustomButton onClick={this._handleGoToSite}>Go To Site</CustomButton>
+                                <CustomButton onClick={this._handleGoToSource}>Go to Source</CustomButton>
                             </div>
                             </div>
                         </Card.Body>
@@ -82,9 +85,8 @@ class WorkPage extends React.Component {
         )
     }
 
-    _handleGoToSite = () => {
-        window.open("//neosoft-ecom.herokuapp.com/");
-    }
+    _handleGoToSite = () => window.open("//neosoft-ecom.herokuapp.com/");
+    _handleGoToSource = () => window.open('//github.com/sagar1596/neosoft-ecom');
 } 
 
 
