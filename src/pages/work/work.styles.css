@@ -54,6 +54,12 @@
 .work .details-text .button-container-mobile button:first-child {
     margin-right: 1em;
 }
+.work .details-text .button-container-mobile button {
+    width: 30em;
+    min-width: 7em;
+    font-size: 0.7em;
+    padding: 0;
+}
 .work .image-container .overlay > .text > button:first-child {
     margin-right: 1em;
 }

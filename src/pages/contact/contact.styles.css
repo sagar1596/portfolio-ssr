@@ -7,21 +7,15 @@
         flex-direction: column;
         justify-content: flex-start;
         padding-top: 6rem;
+}
 
-        .contact-form {
-                > div {
-                        > input[type='text'] {
-                                display: inline-block;
-                                width: 50%;
-                                border: 1px solid #000;
-                                border-bottom: none;
-                        }
-                        textarea {
-                                resize: none;
-                                border: 1px solid #000;
-                        }
-                    
-                }
-        } 
-    
+.contact .contact-form > div > input[type='text'] {
+        display: inline-block;
+        width: 50%;
+        border: 1px solid #000;
+        border-bottom: none;
+}
+.contact .contact-form > div textarea {
+        resize: none;
+        border: 1px solid #000;
 }

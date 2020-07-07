@@ -26,7 +26,7 @@ class SkillsPage extends React.Component {
                     description="Skills - This is a Skill listing page for Sagar Bhat." />
 
                 <Fade bottom>
-                    <h2>Skills and Confidence Level</h2>
+                    <h2>Skills and Confidence</h2>
                 </Fade>
         
 
@@ -41,8 +41,6 @@ class SkillsPage extends React.Component {
                             </Fade>
                         ))
                     }
-                {/* <SkillBars skills={SKILL_DATA} duration={4}/> */}
-                {/* <Circle percent={90} /> */}
                 </div>
             </div>
         )
