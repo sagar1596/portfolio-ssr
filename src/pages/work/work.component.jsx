@@ -65,7 +65,8 @@ class WorkPage extends React.Component {
                                     <Card.Body>
                                         <ul>
                                             <li>ReactJS</li>
-                                            <li>Redux</li>
+                                            <li>Redux Saga</li>
+                                            <li>React Hooks</li>
                                             <li>Firebase Store and Firebase Auth</li>
                                             <li>Stripe API</li>
                                         </ul>
