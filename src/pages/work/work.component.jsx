@@ -86,8 +86,8 @@ class WorkPage extends React.Component {
         )
     }
 
-    _handleGoToSite = () => window.open("//neosoft-ecom.herokuapp.com/");
-    _handleGoToSource = () => window.open('//github.com/sagar1596/neosoft-ecom');
+    _handleGoToSite = () => window.open("//ecom.sagarbhat.com");
+    _handleGoToSource = () => window.open('//github.com/sagar1596/neosoft-ecom-server');
 } 
 
 
